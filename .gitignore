@@ -1,7 +1,9 @@
 .idea
 *.swp
 .gradle
-/build/
+#/build/
+/target/
+/bin/
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -22,6 +24,10 @@ build
 *.swp
 *.bak
 *~
+*.iml
+*.ipr
+*.iws
+
 #Ignore logs
 *.log
 
